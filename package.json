@@ -12,7 +12,7 @@
   "scripts": {
     "capi": "capi",
     "sync": "capi sync --package-json package.json",
-    "main": "capi serve -- node ."
+    "main": "capi serve -- ts-node-esm index.ts"
   },
   "private": true
 }
