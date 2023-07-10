@@ -12,7 +12,8 @@
   "scripts": {
     "capi": "capi",
     "sync": "capi sync node",
-    "main": "capi serve -- node --loader ts-node/esm index.ts"
+    "main": "capi serve -- npm run run",
+    "run": "node --loader ts-node/esm index.ts"
   },
   "private": true
 }
