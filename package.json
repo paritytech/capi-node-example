@@ -2,8 +2,7 @@
   "name": "capi-node-example",
   "type": "module",
   "dependencies": {
-    "@capi/polkadot": "https://capi.dev/@v0.1.0-gamma.1/305a7fc0816e8e29/polkadot.tar",
-    "@capi/polkadot-dev": "https://capi.dev/@v0.1.0-gamma.1/305a7fc0816e8e29/polkadot-dev.tar",
+    "@capi/polkadot": "https://capi.dev/@v0.1.0-gamma.1/315c963e5803ec98/polkadot.tar",
     "capi": "0.1.0-gamma.1"
   },
   "devDependencies": {
