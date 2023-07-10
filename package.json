@@ -7,15 +7,12 @@
     "capi": "0.1.0-gamma.1"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1",
-    "typescript-transpile-only": "^0.0.4"
+    "ts-node": "^10.9.1"
   },
   "scripts": {
     "capi": "capi",
     "sync": "capi sync node",
-    "main": "capi serve -- node --loader ts-node/esm index.ts",
-    "main-temp": "capi serve -- npm run temp",
-    "temp": "npx typescript-transpile-only index.ts && node index.js"
+    "main": "capi serve -- node --loader ts-node/esm index.ts"
   },
   "private": true
 }
