@@ -13,7 +13,7 @@
   "scripts": {
     "capi": "capi",
     "sync": "capi sync node",
-    "main": "capi serve -- ts-node-esm index.ts",
+    "main": "capi serve -- node --loader ts-node/esm index.ts",
     "main-temp": "capi serve -- npm run temp",
     "temp": "npx typescript-transpile-only index.ts && node index.js"
   },
