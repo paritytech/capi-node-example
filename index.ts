@@ -1,3 +1,7 @@
 import { polkadot } from "@capi/polkadot"
 
-console.log(await polkadot.System.Account.entries({ limit: 10 }).run())
+const result = await polkadot.System.Account
+  .entries({ limit: 10 })
+  .run()
+
+console.log(result)
