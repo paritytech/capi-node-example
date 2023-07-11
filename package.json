@@ -2,17 +2,17 @@
   "name": "capi-node-example",
   "type": "module",
   "dependencies": {
-    "capi": "0.1.0-beta.33",
-    "@capi/polkadot": "https://capi.dev/@v0.1.0-beta.33/c51bf258674e5080/polkadot.tar",
-    "@capi/polkadot-dev": "https://capi.dev/@v0.1.0-beta.33/c51bf258674e5080/polkadot-dev.tar"
+    "@capi/polkadot": "https://capi.dev/@v0.1.0-gamma.1/315c963e5803ec98/polkadot.tar",
+    "capi": "0.1.0-gamma.1"
   },
   "devDependencies": {
     "ts-node": "^10.9.1"
   },
   "scripts": {
     "capi": "capi",
-    "sync": "capi sync --package-json package.json",
-    "main": "capi serve -- ts-node-esm index.ts"
+    "sync": "capi sync node",
+    "main": "node --loader ts-node/esm index.ts",
+    "dev": "capi serve --target dev -- npm run main"
   },
   "private": true
 }
