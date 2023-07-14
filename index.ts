@@ -1,3 +1,3 @@
-import { System } from "@capi/polkadot-dev"
+import { polkadot } from "@capi/polkadot"
 
-console.log(await System.Account.entryPage(10, null).run())
+console.log(await polkadot.System.Account.entries({ limit: 10 }).run())
