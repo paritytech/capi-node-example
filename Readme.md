@@ -2,5 +2,6 @@
 
 ```sh
 npm i
-npm run main
+npm run dev # run against a dev net
+npm run main # run against Polkadot
 ```
